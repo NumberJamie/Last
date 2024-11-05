@@ -1,6 +1,3 @@
-from pickle import PROTO
-
-
 def solve_part_one(data: list[str]) -> int:
     vowels = set('aeiou')
     forbidden = {'ab', 'cd', 'pq', 'xy'}
